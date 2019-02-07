@@ -135,7 +135,7 @@ config:
     batch_pending: 10
     batch_timeout: 10s
     read_buffer: 0
-    typesdb: /usr/share/collectd/types.db
+    typesdb: /etc/influxdb/types.db
     security_level: none
     auth_file: /etc/collectd/auth_file
   opentsdb:
